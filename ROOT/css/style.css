@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    background-image: url(../img/taller.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+/* fila de logo + nav */
+header {
+    display: block;
+    height: 100px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBackground {
+    background-color: rgb(37, 207, 51);
+    position: sticky;
+    top: 0px;
+    padding: 50px;
+}
+.navBackground img {
+    display: inline;
+    position: absolute;
+    padding: 15px;
+}
+.navBackground h1{
+    position: absolute;
+    padding: 15px;
+    left: 40px;
+    color: beige;
+    font-size: 2rem;
+}
+
+nav {
+    position: relative;
+    bottom: 40px;
+}
+
+ul {
+    font-size: 0px;
+    list-style: none;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(17, 129, 17);
+    border-radius: 3px;
+}
+
+/* cierre de fila logo + nav */
+
+/* fila de main inicio */
+.inicio{
+    display: flex;
+    display: inline-block;
+}
+
+div h3{
+    text-align: center;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Banner{
+    margin: 15px;
+    width: 300px;
+    height: 200px;
+    border: rgb(14, 13, 13) 3px solid;
+}
+
+.Informacion{
+    background-color: rgb(52, 163, 61);
+    display: inline-block;
+    align-items: center;
+    border: rgb(14, 13, 13) 3px solid;
+    height: 230px;
+    padding: 4px;
+    width: 400px;
+    margin: 15px;
+    line-height: 1.6;
+}
+
+.Informacion h4{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* cierre de main inicio */
+
+/* fila de main nosotros */
+
+.nosotros{
+    height: 700px;
+}
+
+.nosotros div{
+    text-align: center;
+}
+.nosotros div p{
+margin-left: 300px;
+    color: #000;
+    background-color: gray;
+    border: #000 solid 3px;
+    border-radius: 5px;
+    width: 800px;
+}
+
+.nosotros div img{
+    width: 400px;
+    height: 200px;
+    border: #000 solid 3px;
+    border-radius: 5px;
+}
+
+
+/* cierre de main nosotros */
+
+/* fila de main productos */
+
+.productos{
+    height: 700px;
+}
+
+.productos div{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+    border: #000 solid 2px;
+    width: 400px;
+}
+.productos div h2{
+    color: #000;
+}
+
+
+/* cierre de main nosotros */
+
+/* fila de main reseñas */
+
+.reseñas{
+    height: 700px;
+}
+
+.reseñas h1{
+    text-align: center;
+    color: #000;
+}
+
+.reseñas div{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+    border: #000 solid 2px;
+    width: 400px;
+    height: 250px;
+}
+
+.reseñas div h3{
+    color: #000;
+}
+
+
+.reseñas div p{
+    color: #000;
+}
+
+/* cierre de main reseñas */
+
+/* fila de main contacto */
+
+.contacto{
+    height: 700px;
+}
+.contacto h1{
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+}
+.contacto h3{
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.formulario{
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 250px;
+    width: 500px;
+    background-color: rgb(216, 216, 216);
+    color: #000;
+    border: #000 solid 3px;
+}
+
+.formulario div{
+    padding: 7px;
+}
+
+/* cierre de main contacto */
+
+/* fila de footer */
+
+footer{
+    background-color: rgb(90, 114, 89);
+    display: flex;
+    position: absolute;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logoFt{
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+}
+.ubicacionFt a i{
+    display: flex;
+    display: inline-block;
+    color: rgb(31, 66, 34);
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+}
+.ubicacionFt a{
+    color: rgb(31, 66, 34);
+}
+
+.rrssFt a i{
+    display: flex;
+    display: inline-block;
+    color: rgb(31, 66, 34);
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+}
+.contactoFt li{
+    display: flex;
+    display: inline;
+    color: rgb(31, 66, 34);
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+}
+.contactoFt li i{
+    display: flex;
+    display: inline-block;
+    color: rgb(31, 66, 34);
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+}
+/* cierre de footer */
